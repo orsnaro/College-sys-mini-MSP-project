@@ -1,5 +1,7 @@
 # College-sys-mini-MSP-project
-> #####This is clone of [MSP main repo](https://github.com/orsnaro/MSP-MachineLearning-tasks/tree/loacalMSP/assignment3(college_system) 
+
+
+> ##### This is clone of [MSP main repo](https://github.com/orsnaro/MSP-MachineLearning-tasks/tree/loacalMSP/assignment3(college_system))
  - Decided to separate it due to it's size 
 
 
