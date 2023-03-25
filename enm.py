@@ -1,17 +1,11 @@
-##########################################################################################
-#                                                                                        #
-#                                                                                        #
-#                                                                                        #
-#                          Programmer : Omar Rashad                                      #
-#                          Version : v0.4 Beta                                           #
-#                          Date :  29 / 11 / 2022                                        #
-#                          Code Type : enm.py. => Mini_proj for MSP-ML Committe          #
-#                          Title : Omar's Emgineering College System                     #
-#                          Interpreter : cPython  v3.11.0 [Compiler : MSC v.1933 AMD64]  #
-#                                                                                        #
-#                                                                                        #
-#                                                                                        #
-##########################################################################################
+"""
+                          Programmer : Omar Rashad                                      
+                          Version : v0.4 Beta                                           
+                          Date :  29 / 11 / 2022                                        
+                          Code Type : enm.py. => Mini_proj for MSP-ML Committe          
+                          Title : Omar's Emgineering College System                     
+                          Interpreter : cPython  v3.11.0 [Compiler : MSC v.1933 AMD64]  
+"""                                           
 
 class enm: #could be done using dict 
     """since python doesnt has enum data-type 

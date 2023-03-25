@@ -1,17 +1,14 @@
-##########################################################################################
-#                                                                                        #
-#                                                                                        #
-#                                                                                        #
-#                          Programmer : Omar Rashad                                      #
-#                          Version : v0.4 Beta                                           #
-#                          Date :  29 / 11 / 2022                                        #
-#                          Code Type : main.py =>Mini_proj for MSP-ML Committe           #
-#                          Title : Omar's Emgineering College System                     #
-#                          Interpreter : cPython  v3.11.0 [Compiler : MSC v.1933 AMD64]  #
-#                                                                                        #
-#                                                                                        #
-#                                                                                        #
-##########################################################################################
+"""
+                          Programmer : Omar Rashad                                      
+                          Version : v0.4 Beta                                           
+                          Date :  29 / 11 / 2022                                        
+                          Code Type : main.py =>Mini_proj for MSP-ML Committe           
+                          Title : Omar's Emgineering College System                     
+                          Interpreter : cPython  v3.11.0 [Compiler : MSC v.1933 AMD64]  
+"""                                                                                        
+                                                                                        
+                                                                                        
+
 #TODO : make function signal flow diagram
 #TODO : make README.md  and seperate the proj to it's own repo
 #TODO : make porj Tutorial (maybe take your session presentation and summarize it)
