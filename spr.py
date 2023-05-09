@@ -230,18 +230,18 @@ def main() :
             sys.exit(enm.MAIN_MEN_ER)
 
 
-# def disable_rand_hash_seed() -> 'str': 
-#     """
-#     -> WARNING THIS FUNCTION MAY CHANGE BUILT-IN 'hash()' *permenentally!!!* \n
-#     -> This function makes built-in hash() works as expected \n
-#        i.e. ( for same input only = same hashed output ) at any session \n
-#     -> so basically is makes PYTHONHASHSEDD = '0' to make it constant seed not random. \n
-#     """
-#     hashseed = os.getenv('PYTHONHASHSEED')
-#     if not hashseed:
-#         os.environ['PYTHONHASHSEED'] = '0'
-#         os.execv(sys.executable, [sys.executable] + sys.argv)
-#     return  hashseed
+def disable_rand_hash_seed() -> 'str': 
+    """
+    -> WARNING THIS FUNCTION MAY CHANGE BUILT-IN 'hash()' *permenentally!!!* \n
+    -> This function makes built-in hash() works as expected \n
+       i.e. ( for same input only = same hashed output ) at any session \n
+    -> so basically is makes PYTHONHASHSEDD = '0' to make it constant seed not random. \n
+    """
+    hashseed = os.getenv('PYTHONHASHSEED')
+    if not hashseed:
+        os.environ['PYTHONHASHSEED'] = '0'
+        os.execv(sys.executable, [sys.executable] + sys.argv)
+    return  hashseed
 
 def get_extra_data ( _final_id : str ) : # id : str , name : str , age : int  , is_prof : bool , speciality : str
     name  = input (f"Please fill Your Personal Info :\nName:\n>> ")
